@@ -6,25 +6,23 @@ Thanks for helping keep the free LLM API directory accurate.
 
 Add a provider route when it has a documented free allocation or a clearly labeled signup/trial credit. Do not submit scraped API keys, unofficial proxies, or claims based only on a temporary social-media post.
 
-Each catalog record should include:
+Each model row should include:
 
 - provider name and first-party website;
 - model slug and display name;
 - one or more canonical model types;
-- `freeType`: `ongoing_free` or `trial`;
+- whether access is an ongoing free tier or trial credits;
 - quota and eligibility notes;
 - an access URL and a documentation/source URL;
-- `lastDocCheckAt` in ISO 8601 format.
+- the date the documentation was checked.
 
-Use the existing shape in [`data/catalog.json`](data/catalog.json). Keep model types specific: use `embedding`, `speech-recognition`, `speech-synthesis`, `translation`, `safety-moderation`, and other supported values instead of putting every model under “general”.
+Edit the relevant table in [`README.md`](README.md), and keep model types specific: use `embedding`, `speech-recognition`, `speech-synthesis`, `translation`, `safety-moderation`, and other precise values instead of putting every model under “general”. Update the Chinese README when the surrounding explanatory text changes.
 
 ## Validation
 
-After editing the JSON, regenerate both README files and check the diff:
+After editing the list, check the diff:
 
 ```bash
-node scripts/generate-readme.mjs
-node scripts/validate-catalog.mjs
 git diff --check
 ```
 

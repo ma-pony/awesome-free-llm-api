@@ -8,7 +8,7 @@
 
 [English](README.md) | **简体中文**
 
-本仓库是 [freellmapi.io](https://freellmapi.io/zh) 的开源、可贡献配套仓库。网站负责搜索和筛选；本仓库保留可审阅的 JSON 快照以及由脚本生成的双语文档，方便通过 Pull Request 追踪变更。
+本仓库是 [freellmapi.io](https://freellmapi.io/zh) 的开源、可贡献配套仓库。网站负责搜索和筛选；本仓库保留便于阅读和审阅的模型清单，支持通过 Pull Request 追踪变更。
 
 ## “免费”的含义
 
@@ -30,10 +30,9 @@
 
 请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。新增条目需要提供第一方来源、免费额度语义、模型类型、配额说明和文档核验日期。
 
-<!-- BEGIN GENERATED CATALOG -->
 ## Catalog snapshot
 
-This snapshot is generated from the [FreeLLMAPI catalog](https://freellmapi.io/en) on **2026-07-25**. It contains **205 provider routes**, **175 unique models**, and **18 providers**. Each record keeps its own model type, access link, quota note, and documentation source.
+This list mirrors the [FreeLLMAPI catalog](https://freellmapi.io/en) as of **2026-07-25**. It contains **205 provider routes**, **175 unique models**, and **18 providers**. Each record keeps its own model type, access link, quota note, and documentation source.
 
 ### Model types
 
@@ -284,5 +283,3 @@ This snapshot is generated from the [FreeLLMAPI catalog](https://freellmapi.io/e
 | GLM-4.6V-Flash | [Zhipu BigModel](https://www.bigmodel.cn) | Multimodal | Ongoing free tier | Official free multimodal model; usage is subject to platform rate limits | [Get access](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) · [Docs](https://docs.bigmodel.cn/cn/guide/models/free/glm-4.6v-flash) |
 | GLM-4.7-Flash | [Zhipu BigModel](https://www.bigmodel.cn) | Text generation | Ongoing free tier | Official free model; usage is subject to platform rate limits | [Get access](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) · [Docs](https://docs.bigmodel.cn/cn/guide/models/free/glm-4.7-flash) |
 | GLM-4V-Flash | [Zhipu BigModel](https://www.bigmodel.cn) | Multimodal | Ongoing free tier | Official free image-understanding model; usage is subject to platform rate limits | [Get access](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) · [Docs](https://docs.bigmodel.cn/cn/guide/models/free/glm-4v-flash) |
-
-<!-- END GENERATED CATALOG -->

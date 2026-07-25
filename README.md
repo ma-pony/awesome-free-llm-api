@@ -8,7 +8,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-This repository is the transparent, contribution-friendly companion to [freellmapi.io](https://freellmapi.io/en). The website is the searchable directory; this repository keeps a reviewable JSON snapshot and a generated README that can be diffed, forked, and updated by pull request.
+This repository is the transparent, contribution-friendly companion to [freellmapi.io](https://freellmapi.io/en). The website is the searchable directory; this repository keeps a human-readable list that can be reviewed, forked, and updated by pull request.
 
 ## What “free” means
 
@@ -26,24 +26,13 @@ Quotas, regional availability, account requirements, and model availability chan
 - [Read the Chinese README](README.zh-CN.md)
 - [Open an issue](https://github.com/ma-pony/awesome-free-llm-api/issues) when a quota, model, or link is stale
 
-## Keep the snapshot reproducible
-
-The generated catalog is intentionally boring: source data lives in [data/catalog.json](data/catalog.json), and [scripts/generate-readme.mjs](scripts/generate-readme.mjs) renders this README and the Chinese companion. Run:
-
-```bash
-node scripts/generate-readme.mjs
-```
-
-The script writes both language files from the same source data, so a catalog change cannot silently update only one language.
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. A useful contribution includes a first-party source URL, the exact free-tier semantics, model type, quota details, and the date the documentation was checked.
 
-<!-- BEGIN GENERATED CATALOG -->
 ## Catalog snapshot
 
-This snapshot is generated from the [FreeLLMAPI catalog](https://freellmapi.io/en) on **2026-07-25**. It contains **205 provider routes**, **175 unique models**, and **18 providers**. Each record keeps its own model type, access link, quota note, and documentation source.
+This list mirrors the [FreeLLMAPI catalog](https://freellmapi.io/en) as of **2026-07-25**. It contains **205 provider routes**, **175 unique models**, and **18 providers**. Each record keeps its own model type, access link, quota note, and documentation source.
 
 ### Model types
 
@@ -294,5 +283,3 @@ This snapshot is generated from the [FreeLLMAPI catalog](https://freellmapi.io/e
 | GLM-4.6V-Flash | [Zhipu BigModel](https://www.bigmodel.cn) | Multimodal | Ongoing free tier | Official free multimodal model; usage is subject to platform rate limits | [Get access](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) · [Docs](https://docs.bigmodel.cn/cn/guide/models/free/glm-4.6v-flash) |
 | GLM-4.7-Flash | [Zhipu BigModel](https://www.bigmodel.cn) | Text generation | Ongoing free tier | Official free model; usage is subject to platform rate limits | [Get access](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) · [Docs](https://docs.bigmodel.cn/cn/guide/models/free/glm-4.7-flash) |
 | GLM-4V-Flash | [Zhipu BigModel](https://www.bigmodel.cn) | Multimodal | Ongoing free tier | Official free image-understanding model; usage is subject to platform rate limits | [Get access](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) · [Docs](https://docs.bigmodel.cn/cn/guide/models/free/glm-4v-flash) |
-
-<!-- END GENERATED CATALOG -->
