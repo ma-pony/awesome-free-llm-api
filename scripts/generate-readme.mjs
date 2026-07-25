@@ -121,6 +121,8 @@ const staticSection = `# Awesome Free LLM API
 [![Catalog snapshot](https://img.shields.io/badge/catalog-${records.length}%20routes-111827)](https://freellmapi.io/en)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22c55e)](LICENSE)
 
+**English** | [简体中文](README.zh-CN.md)
+
 This repository is the transparent, contribution-friendly companion to [freellmapi.io](https://freellmapi.io/en). The website is the searchable directory; this repository keeps a reviewable JSON snapshot and a generated README that can be diffed, forked, and updated by pull request.
 
 ## What “free” means
@@ -163,6 +165,8 @@ const chineseSection = `# 免费 LLM API 清单
 [![FreeLLMAPI 目录](https://img.shields.io/badge/目录-freellmapi.io-5b4ce6)](https://freellmapi.io/zh)
 [![目录快照](https://img.shields.io/badge/目录-${records.length}%20条路由-111827)](https://freellmapi.io/zh)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22c55e)](LICENSE)
+
+[English](README.md) | **简体中文**
 
 本仓库是 [freellmapi.io](https://freellmapi.io/zh) 的开源、可贡献配套仓库。网站负责搜索和筛选；本仓库保留可审阅的 JSON 快照以及由脚本生成的双语文档，方便通过 Pull Request 追踪变更。
 

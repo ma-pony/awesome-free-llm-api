@@ -6,6 +6,8 @@
 [![Catalog snapshot](https://img.shields.io/badge/catalog-205%20routes-111827)](https://freellmapi.io/en)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22c55e)](LICENSE)
 
+**English** | [简体中文](README.zh-CN.md)
+
 This repository is the transparent, contribution-friendly companion to [freellmapi.io](https://freellmapi.io/en). The website is the searchable directory; this repository keeps a reviewable JSON snapshot and a generated README that can be diffed, forked, and updated by pull request.
 
 ## What “free” means
