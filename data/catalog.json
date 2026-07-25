@@ -1,0 +1,4958 @@
+[
+  {
+    "modelSlug": "gemini-2.5-pro",
+    "modelDisplayName": "Gemini 2.5 Pro",
+    "family": "Gemini",
+    "tier": "flagship",
+    "purposes": [
+      "reasoning",
+      "coding",
+      "vision",
+      "general"
+    ],
+    "providerSlug": "google-ai-studio",
+    "providerName": "Google AI Studio (Gemini API)",
+    "providerType": "official",
+    "providerWebsite": "https://ai.google.dev",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free tier ~5 RPM, 100 requests/day (docs)",
+    "rateLimitNote": "~5 requests/min, ~100 requests/day, ~250K TPM on free tier (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://aistudio.google.com/apikey",
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemini-2.5-flash",
+    "modelDisplayName": "Gemini 2.5 Flash",
+    "family": "Gemini",
+    "tier": "balanced",
+    "purposes": [
+      "reasoning",
+      "coding",
+      "vision",
+      "general"
+    ],
+    "providerSlug": "google-ai-studio",
+    "providerName": "Google AI Studio (Gemini API)",
+    "providerType": "official",
+    "providerWebsite": "https://ai.google.dev",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free tier ~10 RPM, 250 requests/day (docs)",
+    "rateLimitNote": "~10 requests/min, ~250 requests/day, ~250K TPM on free tier (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://aistudio.google.com/apikey",
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemini-2.5-flash-lite",
+    "modelDisplayName": "Gemini 2.5 Flash-Lite",
+    "family": "Gemini",
+    "tier": "light",
+    "purposes": [
+      "general",
+      "vision"
+    ],
+    "providerSlug": "google-ai-studio",
+    "providerName": "Google AI Studio (Gemini API)",
+    "providerType": "official",
+    "providerWebsite": "https://ai.google.dev",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free tier ~15 RPM, 1000 requests/day (docs)",
+    "rateLimitNote": "~15 requests/min, ~1000 requests/day on free tier (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://aistudio.google.com/apikey",
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "mistral-large",
+    "modelDisplayName": "Mistral Large",
+    "family": "Mistral",
+    "tier": "flagship",
+    "purposes": [
+      "reasoning",
+      "coding",
+      "general"
+    ],
+    "providerSlug": "mistral-la-plateforme",
+    "providerName": "Mistral La Plateforme",
+    "providerType": "official",
+    "providerWebsite": "https://mistral.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free (Experiment) tier ~1 req/sec, ~500K tokens/min, ~1B tokens/month (docs)",
+    "rateLimitNote": "Shared free-tier limits: ~1 request/sec, ~500K TPM, ~1B tokens/month (docs)",
+    "requiresPhone": true,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.mistral.ai/api-keys",
+    "sourceUrl": "https://docs.mistral.ai/deployment/laplateforme/tier/",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "codestral",
+    "modelDisplayName": "Codestral",
+    "family": "Mistral",
+    "tier": "balanced",
+    "purposes": [
+      "coding"
+    ],
+    "providerSlug": "mistral-la-plateforme",
+    "providerName": "Mistral La Plateforme",
+    "providerType": "official",
+    "providerWebsite": "https://mistral.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free (Experiment) tier ~1 req/sec, ~500K tokens/min, ~1B tokens/month (docs)",
+    "rateLimitNote": "Shared free-tier limits: ~1 request/sec, ~500K TPM, ~1B tokens/month (docs)",
+    "requiresPhone": true,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.mistral.ai/api-keys",
+    "sourceUrl": "https://docs.mistral.ai/deployment/laplateforme/tier/",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "pixtral-12b",
+    "modelDisplayName": "Pixtral 12B",
+    "family": "Mistral",
+    "tier": "light",
+    "purposes": [
+      "vision",
+      "general"
+    ],
+    "providerSlug": "mistral-la-plateforme",
+    "providerName": "Mistral La Plateforme",
+    "providerType": "official",
+    "providerWebsite": "https://mistral.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free (Experiment) tier ~1 req/sec, ~500K tokens/min, ~1B tokens/month (docs)",
+    "rateLimitNote": "Shared free-tier limits: ~1 request/sec, ~500K TPM, ~1B tokens/month (docs)",
+    "requiresPhone": true,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.mistral.ai/api-keys",
+    "sourceUrl": "https://docs.mistral.ai/deployment/laplateforme/tier/",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "command-a",
+    "modelDisplayName": "Command A",
+    "family": "Command",
+    "tier": "flagship",
+    "purposes": [
+      "reasoning",
+      "general",
+      "coding"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "Trial key ~20 req/min, ~1000 chat calls/month (docs)",
+    "rateLimitNote": "Trial keys: ~20 requests/min for chat, ~1000 calls/month; not for production (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://docs.cohere.com/docs/rate-limits",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.3-70b-versatile",
+    "modelDisplayName": "Llama 3.3 70B Versatile",
+    "family": "llama-3.3",
+    "tier": "flagship",
+    "purposes": [
+      "general",
+      "reasoning",
+      "coding"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "~30 req/min, ~1,000 req/day, ~12K tokens/min on free tier (docs)",
+    "rateLimitNote": "Per-model RPM/RPD/TPM limits shown in console; free tier is rate-limited, not usage-billed (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://console.groq.com/docs/rate-limits",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.1-8b-instant",
+    "modelDisplayName": "Llama 3.1 8B Instant",
+    "family": "llama-3.1",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "~30 req/min, ~14,400 req/day, ~6K tokens/min on free tier (docs)",
+    "rateLimitNote": "High daily request ceiling makes this the highest-throughput free Groq model (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://console.groq.com/docs/rate-limits",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "kimi-k2-instruct",
+    "modelDisplayName": "Kimi K2 Instruct",
+    "family": "kimi-k2",
+    "tier": "flagship",
+    "purposes": [
+      "general",
+      "coding",
+      "reasoning"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "~1,000 req/day on free tier; lower TPM than small models (docs)",
+    "rateLimitNote": "Large MoE model hosted by Groq; free tier rate-limited (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://console.groq.com/docs/rate-limits",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen-3-32b",
+    "modelDisplayName": "Qwen 3 32B",
+    "family": "qwen-3",
+    "tier": "balanced",
+    "purposes": [
+      "reasoning",
+      "coding",
+      "general"
+    ],
+    "providerSlug": "cerebras",
+    "providerName": "Cerebras",
+    "providerType": "third_party",
+    "providerWebsite": "https://cerebras.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free tier ~30 req/min, ~1M tokens/day (docs)",
+    "rateLimitNote": "Reasoning-capable model on free tier with token cap (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.cerebras.ai",
+    "sourceUrl": "https://inference-docs.cerebras.ai/support/pricing",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.1-405b-instruct",
+    "modelDisplayName": "Llama 3.1 405B Instruct",
+    "family": "llama-3.1",
+    "tier": "flagship",
+    "purposes": [
+      "general",
+      "reasoning",
+      "coding"
+    ],
+    "providerSlug": "sambanova",
+    "providerName": "SambaNova Cloud",
+    "providerType": "third_party",
+    "providerWebsite": "https://sambanova.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free developer tier, rate-limited (~10-20 req/min for 405B) (docs)",
+    "rateLimitNote": "One of few free routes to 405B; tight per-minute limits on free tier (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.sambanova.ai",
+    "sourceUrl": "https://docs.sambanova.ai/cloud/docs/get-started/rate-limits",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.2-90b-vision-instruct",
+    "modelDisplayName": "Llama 3.2 90B Vision Instruct",
+    "family": "llama-3.2",
+    "tier": "balanced",
+    "purposes": [
+      "vision",
+      "general"
+    ],
+    "providerSlug": "sambanova",
+    "providerName": "SambaNova Cloud",
+    "providerType": "third_party",
+    "providerWebsite": "https://sambanova.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free developer tier, rate-limited multimodal model (docs)",
+    "rateLimitNote": "Supports image input; free tier per-minute caps (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.sambanova.ai",
+    "sourceUrl": "https://docs.sambanova.ai/cloud/docs/get-started/rate-limits",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "deepseek-r1",
+    "modelDisplayName": "DeepSeek R1",
+    "family": "DeepSeek",
+    "tier": "flagship",
+    "purposes": [
+      "reasoning",
+      "coding",
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free :free route; ~20 req/min, 50 req/day under $10 lifetime credits or 1000 req/day after purchasing $10+ credits (docs)",
+    "rateLimitNote": "20 requests/min shared across free-tier models; daily cap depends on credit balance (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://openrouter.ai/docs/api-reference/limits",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.3-70b-instruct-turbo-free",
+    "modelDisplayName": "Llama 3.3 70B Instruct Turbo Free",
+    "family": "Llama",
+    "tier": "balanced",
+    "purposes": [
+      "general",
+      "coding"
+    ],
+    "providerSlug": "together-ai",
+    "providerName": "Together AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.together.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Dedicated rate-limited free endpoint (model id ...Turbo-Free); plus ~$1 signup trial credit for paid models (docs)",
+    "rateLimitNote": "Free endpoint limited to a few requests/min on the free/build tier; higher limits require adding credits (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://api.together.ai/settings/api-keys",
+    "sourceUrl": "https://docs.together.ai/docs/rate-limits",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.3-70b-instruct-trial",
+    "modelDisplayName": "Llama 3.3 70B Instruct (trial)",
+    "family": "Llama",
+    "tier": "balanced",
+    "purposes": [
+      "general",
+      "coding"
+    ],
+    "providerSlug": "fireworks-ai",
+    "providerName": "Fireworks AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://fireworks.ai",
+    "freeType": "trial",
+    "quotaNote": "Covered by ~$1 free credit granted on signup; usable across serverless catalog until credit exhausted (docs)",
+    "rateLimitNote": "Developer/serverless tier rate limits apply; raise by adding payment method (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://fireworks.ai/account/api-keys",
+    "sourceUrl": "https://docs.fireworks.ai/getting-started/quickstart",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen2.5-72b-instruct",
+    "modelDisplayName": "Qwen2.5 72B Instruct",
+    "family": "qwen",
+    "tier": "flagship",
+    "purposes": [
+      "general",
+      "coding",
+      "reasoning"
+    ],
+    "providerSlug": "huggingface",
+    "providerName": "Hugging Face Inference Providers",
+    "providerType": "third_party",
+    "providerWebsite": "https://huggingface.co",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free monthly inference credits for signed-in accounts (~$0.10/mo free tier); rate-limited (docs)",
+    "rateLimitNote": "Credit-based free allowance; throttled after monthly credits exhausted (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://huggingface.co/settings/tokens",
+    "sourceUrl": "https://huggingface.co/docs/inference-providers/pricing",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gpt-4o",
+    "modelDisplayName": "GPT-4o",
+    "family": "gpt",
+    "tier": "flagship",
+    "purposes": [
+      "general",
+      "vision",
+      "coding",
+      "reasoning"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free in preview; high-tier limits ~10 req/min, 50 req/day, 8k in/4k out tokens (docs)",
+    "rateLimitNote": "Rate limits scale with GitHub Copilot plan tier; free/preview uses lowest tier (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://docs.github.com/en/github-models/prototyping-with-ai-models",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.3-70b-instruct-fp8-fast-cloudflare-workers-ai",
+    "modelDisplayName": "Llama 3.3 70B Instruct FP8 Fast (Cloudflare Workers AI)",
+    "family": "llama",
+    "tier": "flagship",
+    "purposes": [
+      "general",
+      "coding",
+      "reasoning"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai/",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free allocation of 10,000 Neurons/day shared across models; large model consumes Neurons faster (docs)",
+    "rateLimitNote": "Daily Neuron budget resets each day; overage requires paid plan (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com/profile/api-tokens",
+    "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "bevformer",
+    "modelDisplayName": "bevformer",
+    "tier": "balanced",
+    "purposes": [
+      "vision"
+    ],
+    "modelTypes": [
+      "object-detection",
+      "video-understanding"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/bevformer",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "cosmos-transfer1-7b",
+    "modelDisplayName": "cosmos-transfer1-7b",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "modelTypes": [
+      "video-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/cosmos-transfer1-7b",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "cosmos-transfer2-5-2b",
+    "modelDisplayName": "cosmos-transfer2.5-2b",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "modelTypes": [
+      "video-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/cosmos-transfer2_5-2b",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "cosmos3-nano",
+    "modelDisplayName": "cosmos3-nano",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "modelTypes": [
+      "video-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/cosmos3-nano",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "cosmos3-nano-reasoner",
+    "modelDisplayName": "cosmos3-nano-reasoner",
+    "tier": "light",
+    "purposes": [
+      "reasoning",
+      "vision"
+    ],
+    "modelTypes": [
+      "multimodal",
+      "video-understanding"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/cosmos3-nano-reasoner",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "ising-calibration-1-35b-a3b",
+    "modelDisplayName": "ising-calibration-1-35b-a3b",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "modelTypes": [
+      "multimodal"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/ising-calibration-1-35b-a3b",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.1-nemotron-nano-vl-8b-v1",
+    "modelDisplayName": "llama-3.1-nemotron-nano-vl-8b-v1",
+    "tier": "light",
+    "purposes": [
+      "vision",
+      "general"
+    ],
+    "modelTypes": [
+      "multimodal"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3-1-nemotron-nano-8b-v1",
+    "modelDisplayName": "llama-3.1-nemotron-nano-8b-v1",
+    "tier": "light",
+    "purposes": [
+      "reasoning",
+      "general"
+    ],
+    "modelTypes": [
+      "text-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-nano-8b-v1",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3-1-nemotron-safety-guard-8b-v3",
+    "modelDisplayName": "llama-3.1-nemotron-safety-guard-8b-v3",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "modelTypes": [
+      "safety-moderation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-safety-guard-8b-v3",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3-3-nemotron-super-49b-v1",
+    "modelDisplayName": "llama-3.3-nemotron-super-49b-v1",
+    "tier": "balanced",
+    "purposes": [
+      "reasoning",
+      "general"
+    ],
+    "modelTypes": [
+      "text-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3-3-nemotron-super-49b-v1-5",
+    "modelDisplayName": "llama-3.3-nemotron-super-49b-v1.5",
+    "tier": "balanced",
+    "purposes": [
+      "reasoning",
+      "general"
+    ],
+    "modelTypes": [
+      "text-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1_5",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "magpie-tts-zeroshot",
+    "modelDisplayName": "magpie-tts-zeroshot",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "modelTypes": [
+      "speech-synthesis"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/magpie-tts-zeroshot",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-embed-1b",
+    "modelDisplayName": "nemotron-3-embed-1b",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "modelTypes": [
+      "embedding",
+      "retrieval"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nemotron-3-embed-1b",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-nano-30b-a3b",
+    "modelDisplayName": "nemotron-3-nano-30b-a3b",
+    "tier": "light",
+    "purposes": [
+      "coding",
+      "reasoning",
+      "general"
+    ],
+    "modelTypes": [
+      "text-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nemotron-3-nano-30b-a3b",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-nano-omni-30b-a3b-reasoning",
+    "modelDisplayName": "nemotron-3-nano-omni-30b-a3b-reasoning",
+    "tier": "light",
+    "purposes": [
+      "reasoning",
+      "vision"
+    ],
+    "modelTypes": [
+      "multimodal",
+      "video-understanding"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-super-120b-a12b",
+    "modelDisplayName": "nemotron-3-super-120b-a12b",
+    "tier": "balanced",
+    "purposes": [
+      "coding",
+      "reasoning",
+      "general"
+    ],
+    "modelTypes": [
+      "text-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nemotron-3-super-120b-a12b",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-ultra-550b-a55b",
+    "modelDisplayName": "nemotron-3-ultra-550b-a55b",
+    "tier": "flagship",
+    "purposes": [
+      "coding",
+      "reasoning",
+      "general"
+    ],
+    "modelTypes": [
+      "text-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3.5-content-safety",
+    "modelDisplayName": "nemotron-3.5-content-safety",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "modelTypes": [
+      "safety-moderation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nemotron-3.5-content-safety",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-mini-4b-instruct",
+    "modelDisplayName": "nemotron-mini-4b-instruct",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "modelTypes": [
+      "text-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nemotron-mini-4b-instruct",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-nano-12b-v2-vl",
+    "modelDisplayName": "nemotron-nano-12b-v2-vl",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "modelTypes": [
+      "multimodal",
+      "video-understanding"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nemotron-nano-12b-v2-vl",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-voicechat",
+    "modelDisplayName": "nemotron-voicechat",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "modelTypes": [
+      "text-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nemotron-voicechat",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nv-embed-v1",
+    "modelDisplayName": "nv-embed-v1",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "modelTypes": [
+      "embedding",
+      "retrieval"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nv-embed-v1",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nv-embedcode-7b-v1",
+    "modelDisplayName": "nv-embedcode-7b-v1",
+    "tier": "light",
+    "purposes": [
+      "coding"
+    ],
+    "modelTypes": [
+      "embedding",
+      "retrieval"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nv-embedcode-7b-v1",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nvidia-nemotron-nano-9b-v2",
+    "modelDisplayName": "nvidia-nemotron-nano-9b-v2",
+    "tier": "light",
+    "purposes": [
+      "reasoning",
+      "general"
+    ],
+    "modelTypes": [
+      "text-generation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/nvidia-nemotron-nano-9b-v2",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "rerank-qa-mistral-4b",
+    "modelDisplayName": "rerank-qa-mistral-4b",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "modelTypes": [
+      "reranking",
+      "retrieval"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/rerank-qa-mistral-4b",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "riva-translate-4b-instruct-v1-1",
+    "modelDisplayName": "riva-translate-4b-instruct-v1_1",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "modelTypes": [
+      "translation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v1_1",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "sparsedrive",
+    "modelDisplayName": "sparsedrive",
+    "tier": "balanced",
+    "purposes": [
+      "vision"
+    ],
+    "modelTypes": [
+      "object-detection",
+      "video-understanding"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/sparsedrive",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "streampetr",
+    "modelDisplayName": "streampetr",
+    "tier": "balanced",
+    "purposes": [
+      "vision"
+    ],
+    "modelTypes": [
+      "object-detection",
+      "video-understanding"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/streampetr",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "studiovoice",
+    "modelDisplayName": "Studio Voice",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "modelTypes": [
+      "audio-enhancement"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/studiovoice",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "synthetic-video-detector",
+    "modelDisplayName": "synthetic-video-detector",
+    "tier": "balanced",
+    "purposes": [
+      "vision"
+    ],
+    "modelTypes": [
+      "safety-moderation"
+    ],
+    "providerSlug": "nvidia",
+    "providerName": "NVIDIA build.nvidia.com (NIM)",
+    "providerType": "official",
+    "providerWebsite": "https://build.nvidia.com",
+    "freeType": "trial",
+    "quotaNote": "NVIDIA-hosted free API endpoint for prototyping; governed by NVIDIA API Trial Terms",
+    "rateLimitNote": "Account-level API credits and rate limits apply; see NVIDIA API Catalog",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://build.nvidia.com",
+    "sourceUrl": "https://build.nvidia.com/nvidia/synthetic-video-detector",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "hermes-3-llama-3.1-405b",
+    "modelDisplayName": "Hermes 3 Llama 3.1 405B",
+    "family": "Hermes",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.2-3b-instruct",
+    "modelDisplayName": "Llama 3.2 3B Instruct",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.3-70b-instruct",
+    "modelDisplayName": "Llama 3.3 70B Instruct",
+    "family": "Llama",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "dolphin-mistral-24b-venice-edition",
+    "modelDisplayName": "Dolphin Mistral 24B Venice Edition",
+    "family": "cognitivecomputations",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "north-mini-code",
+    "modelDisplayName": "North Mini Code",
+    "family": "cohere",
+    "tier": "light",
+    "purposes": [
+      "coding"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-4-26b-a4b-it",
+    "modelDisplayName": "Gemma 4 26B A4B IT",
+    "family": "google",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-4-31b-it",
+    "modelDisplayName": "Gemma 4 31B IT",
+    "family": "google",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-nano-30b-a3b",
+    "modelDisplayName": "Nemotron 3 Nano 30B A3B",
+    "family": "nvidia",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-nano-omni-30b-a3b-reasoning",
+    "modelDisplayName": "Nemotron 3 Nano Omni 30B A3B Reasoning",
+    "family": "nvidia",
+    "tier": "light",
+    "purposes": [
+      "reasoning",
+      "vision"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-super-120b-a12b",
+    "modelDisplayName": "Nemotron 3 Super 120B A12B",
+    "family": "nvidia",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-ultra-550b-a55b",
+    "modelDisplayName": "Nemotron 3 Ultra 550B A55B",
+    "family": "nvidia",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3.5-content-safety",
+    "modelDisplayName": "Nemotron 3.5 Content Safety",
+    "family": "nvidia",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-nano-12b-v2-vl",
+    "modelDisplayName": "Nemotron Nano 12B v2 VL",
+    "family": "nvidia",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-nano-9b-v2",
+    "modelDisplayName": "Nemotron Nano 9B v2",
+    "family": "nvidia",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gpt-oss-20b",
+    "modelDisplayName": "GPT OSS 20B",
+    "family": "openai",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "laguna-m.1",
+    "modelDisplayName": "Laguna M.1",
+    "family": "poolside",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "laguna-xs-2.1",
+    "modelDisplayName": "Laguna Xs 2.1",
+    "family": "poolside",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen3-coder",
+    "modelDisplayName": "Qwen3 Coder",
+    "family": "qwen",
+    "tier": "balanced",
+    "purposes": [
+      "coding"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen3-next-80b-a3b-instruct",
+    "modelDisplayName": "Qwen3 Next 80B A3B Instruct",
+    "family": "qwen",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "hy3",
+    "modelDisplayName": "Hy3",
+    "family": "tencent",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemini-3.5-flash",
+    "modelDisplayName": "Gemini 3.5 Flash",
+    "family": "Gemini",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "google-ai-studio",
+    "providerName": "Google AI Studio (Gemini API)",
+    "providerType": "official",
+    "providerWebsite": "https://ai.google.dev",
+    "freeType": "ongoing_free",
+    "quotaNote": "250,000 tokens/minute; 20 requests/day; 5 requests/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://aistudio.google.com/apikey",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemini-3-flash",
+    "modelDisplayName": "Gemini 3 Flash",
+    "family": "Gemini",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "google-ai-studio",
+    "providerName": "Google AI Studio (Gemini API)",
+    "providerType": "official",
+    "providerWebsite": "https://ai.google.dev",
+    "freeType": "ongoing_free",
+    "quotaNote": "250,000 tokens/minute; 20 requests/day; 5 requests/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://aistudio.google.com/apikey",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemini-3.1-flash-lite",
+    "modelDisplayName": "Gemini 3.1 Flash-Lite",
+    "family": "Gemini",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "google-ai-studio",
+    "providerName": "Google AI Studio (Gemini API)",
+    "providerType": "official",
+    "providerWebsite": "https://ai.google.dev",
+    "freeType": "ongoing_free",
+    "quotaNote": "250,000 tokens/minute; 500 requests/day; 15 requests/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://aistudio.google.com/apikey",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-3-27b-instruct",
+    "modelDisplayName": "Gemma 3 27B Instruct",
+    "family": "Gemma",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "google-ai-studio",
+    "providerName": "Google AI Studio (Gemini API)",
+    "providerType": "official",
+    "providerWebsite": "https://ai.google.dev",
+    "freeType": "ongoing_free",
+    "quotaNote": "15,000 tokens/minute; 14,400 requests/day; 30 requests/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://aistudio.google.com/apikey",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-3-12b-instruct",
+    "modelDisplayName": "Gemma 3 12B Instruct",
+    "family": "Gemma",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "google-ai-studio",
+    "providerName": "Google AI Studio (Gemini API)",
+    "providerType": "official",
+    "providerWebsite": "https://ai.google.dev",
+    "freeType": "ongoing_free",
+    "quotaNote": "15,000 tokens/minute; 14,400 requests/day; 30 requests/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://aistudio.google.com/apikey",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-3-4b-instruct",
+    "modelDisplayName": "Gemma 3 4B Instruct",
+    "family": "Gemma",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "google-ai-studio",
+    "providerName": "Google AI Studio (Gemini API)",
+    "providerType": "official",
+    "providerWebsite": "https://ai.google.dev",
+    "freeType": "ongoing_free",
+    "quotaNote": "15,000 tokens/minute; 14,400 requests/day; 30 requests/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://aistudio.google.com/apikey",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-3-1b-instruct",
+    "modelDisplayName": "Gemma 3 1B Instruct",
+    "family": "Gemma",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "google-ai-studio",
+    "providerName": "Google AI Studio (Gemini API)",
+    "providerType": "official",
+    "providerWebsite": "https://ai.google.dev",
+    "freeType": "ongoing_free",
+    "quotaNote": "15,000 tokens/minute; 14,400 requests/day; 30 requests/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://aistudio.google.com/apikey",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "big-pickle-stealth",
+    "modelDisplayName": "Big Pickle Stealth",
+    "family": "Big",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "opencode-zen",
+    "providerName": "OpenCode Zen",
+    "providerType": "third_party",
+    "providerWebsite": "https://opencode.ai/docs/zen/",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://opencode.ai/auth",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-super-free",
+    "modelDisplayName": "Nemotron 3 Super Free",
+    "family": "Nemotron",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "opencode-zen",
+    "providerName": "OpenCode Zen",
+    "providerType": "third_party",
+    "providerWebsite": "https://opencode.ai/docs/zen/",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://opencode.ai/auth",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "deepseek-v4-flash-free",
+    "modelDisplayName": "DeepSeek V4 Flash Free",
+    "family": "DeepSeek",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "opencode-zen",
+    "providerName": "OpenCode Zen",
+    "providerType": "third_party",
+    "providerWebsite": "https://opencode.ai/docs/zen/",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://opencode.ai/auth",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gpt-oss-120b",
+    "modelDisplayName": "gpt-oss-120b",
+    "family": "gpt",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cerebras",
+    "providerName": "Cerebras",
+    "providerType": "third_party",
+    "providerWebsite": "https://cerebras.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "30 requests/minute; 60,000 tokens/minute; 900 requests/hour; 1,000,000 tokens/hour; 14,400 requests/day; 1,000,000 tokens/day (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.cerebras.ai",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.1-8b",
+    "modelDisplayName": "Llama 3.1 8B",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cerebras",
+    "providerName": "Cerebras",
+    "providerType": "third_party",
+    "providerWebsite": "https://cerebras.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "30 requests/minute; 60,000 tokens/minute; 900 requests/hour; 1,000,000 tokens/hour; 14,400 requests/day; 1,000,000 tokens/day (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.cerebras.ai",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "allam-2-7b",
+    "modelDisplayName": "Allam 2 7B",
+    "family": "Allam",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "7,000 requests/day; 6,000 tokens/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.1-8b",
+    "modelDisplayName": "Llama 3.1 8B",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "14,400 requests/day; 6,000 tokens/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.3-70b",
+    "modelDisplayName": "Llama 3.3 70B",
+    "family": "Llama",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "1,000 requests/day; 12,000 tokens/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "orpheus-arabic-saudi",
+    "modelDisplayName": "Orpheus Arabic Saudi",
+    "family": "canopylabs",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": null,
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "orpheus-v1-english",
+    "modelDisplayName": "Orpheus v1 English",
+    "family": "canopylabs",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": null,
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "compound",
+    "modelDisplayName": "Compound",
+    "family": "groq",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "250 requests/day; 70,000 tokens/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "compound-mini",
+    "modelDisplayName": "Compound Mini",
+    "family": "groq",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "250 requests/day; 70,000 tokens/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-prompt-guard-2-22m",
+    "modelDisplayName": "Llama Prompt Guard 2 22m",
+    "family": "llama",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": null,
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-prompt-guard-2-86m",
+    "modelDisplayName": "Llama Prompt Guard 2 86m",
+    "family": "llama",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": null,
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gpt-oss-120b",
+    "modelDisplayName": "GPT OSS 120B",
+    "family": "openai",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "1,000 requests/day; 8,000 tokens/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gpt-oss-20b",
+    "modelDisplayName": "GPT OSS 20B",
+    "family": "openai",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "1,000 requests/day; 8,000 tokens/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gpt-oss-safeguard-20b",
+    "modelDisplayName": "GPT OSS Safeguard 20B",
+    "family": "openai",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "1,000 requests/day; 8,000 tokens/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen3.6-27b",
+    "modelDisplayName": "Qwen3.6 27B",
+    "family": "qwen",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "groq",
+    "providerName": "Groq",
+    "providerType": "third_party",
+    "providerWebsite": "https://groq.com",
+    "freeType": "ongoing_free",
+    "quotaNote": "1,000 requests/day; 8,000 tokens/minute (docs)",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.groq.com/keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "c4ai-aya-expanse-32b",
+    "modelDisplayName": "c4ai-aya-expanse-32b",
+    "family": "c4ai",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "c4ai-aya-vision-32b",
+    "modelDisplayName": "c4ai-aya-vision-32b",
+    "family": "c4ai",
+    "tier": "balanced",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "command-a-plus-05-2026",
+    "modelDisplayName": "command-a-plus-05-2026",
+    "family": "command",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "command-a-reasoning-08-2025",
+    "modelDisplayName": "command-a-reasoning-08-2025",
+    "family": "command",
+    "tier": "flagship",
+    "purposes": [
+      "reasoning"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "command-a-translate-08-2025",
+    "modelDisplayName": "command-a-translate-08-2025",
+    "family": "command",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "command-a-vision-07-2025",
+    "modelDisplayName": "command-a-vision-07-2025",
+    "family": "command",
+    "tier": "flagship",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "command-r-08-2024",
+    "modelDisplayName": "command-r-08-2024",
+    "family": "command",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "command-r-plus-08-2024",
+    "modelDisplayName": "command-r-plus-08-2024",
+    "family": "command",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "command-r7b-12-2024",
+    "modelDisplayName": "command-r7b-12-2024",
+    "family": "command",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "command-r7b-arabic-02-2025",
+    "modelDisplayName": "command-r7b-arabic-02-2025",
+    "family": "command",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cohere",
+    "providerName": "Cohere",
+    "providerType": "official",
+    "providerWebsite": "https://cohere.com",
+    "freeType": "trial",
+    "quotaNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits) (docs)",
+    "rateLimitNote": "[20 requests/minute<br>1,000 requests/month](https://docs.cohere.com/docs/rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dashboard.cohere.com/api-keys",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "codestral-25.01",
+    "modelDisplayName": "Codestral 25.01",
+    "family": "Codestral",
+    "tier": "balanced",
+    "purposes": [
+      "coding"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "cohere-command-a",
+    "modelDisplayName": "Cohere Command A",
+    "family": "Cohere",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "deepseek-r1",
+    "modelDisplayName": "DeepSeek-R1",
+    "family": "DeepSeek",
+    "tier": "flagship",
+    "purposes": [
+      "reasoning"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "deepseek-r1-0528",
+    "modelDisplayName": "DeepSeek-R1-0528",
+    "family": "DeepSeek",
+    "tier": "flagship",
+    "purposes": [
+      "reasoning"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "deepseek-v3-0324",
+    "modelDisplayName": "DeepSeek-V3-0324",
+    "family": "DeepSeek",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-4-maverick-17b-128e-instruct-fp8",
+    "modelDisplayName": "Llama 4 Maverick 17B 128E Instruct FP8",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-4-scout-17b-16e-instruct",
+    "modelDisplayName": "Llama 4 Scout 17B 16E Instruct",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.2-11b-vision-instruct",
+    "modelDisplayName": "Llama-3.2-11B-Vision-Instruct",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.2-90b-vision-instruct",
+    "modelDisplayName": "Llama-3.2-90B-Vision-Instruct",
+    "family": "Llama",
+    "tier": "balanced",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.3-70b-instruct",
+    "modelDisplayName": "Llama-3.3-70B-Instruct",
+    "family": "Llama",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "meta-llama-3.1-405b-instruct",
+    "modelDisplayName": "Meta-Llama-3.1-405B-Instruct",
+    "family": "Meta",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "meta-llama-3.1-8b-instruct",
+    "modelDisplayName": "Meta-Llama-3.1-8B-Instruct",
+    "family": "Meta",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "ministral-3b",
+    "modelDisplayName": "Ministral 3B",
+    "family": "Ministral",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "mistral-medium-3",
+    "modelDisplayName": "Mistral Medium 3",
+    "family": "Mistral",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "mistral-small-3.1",
+    "modelDisplayName": "Mistral Small 3.1",
+    "family": "Mistral",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-gpt-4.1",
+    "modelDisplayName": "OpenAI GPT-4.1",
+    "family": "OpenAI",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-gpt-4.1-mini",
+    "modelDisplayName": "OpenAI GPT-4.1-mini",
+    "family": "OpenAI",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-gpt-4.1-nano",
+    "modelDisplayName": "OpenAI GPT-4.1-nano",
+    "family": "OpenAI",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-gpt-4o",
+    "modelDisplayName": "OpenAI GPT-4o",
+    "family": "OpenAI",
+    "tier": "balanced",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-gpt-4o-mini",
+    "modelDisplayName": "OpenAI GPT-4o mini",
+    "family": "OpenAI",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-gpt-5",
+    "modelDisplayName": "OpenAI gpt-5",
+    "family": "OpenAI",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-gpt-5-chat",
+    "modelDisplayName": "OpenAI gpt-5-chat",
+    "family": "OpenAI",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-gpt-5-mini",
+    "modelDisplayName": "OpenAI gpt-5-mini",
+    "family": "OpenAI",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-gpt-5-nano",
+    "modelDisplayName": "OpenAI gpt-5-nano",
+    "family": "OpenAI",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-o1",
+    "modelDisplayName": "OpenAI o1",
+    "family": "OpenAI",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-o1-mini",
+    "modelDisplayName": "OpenAI o1-mini",
+    "family": "OpenAI",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-o1-preview",
+    "modelDisplayName": "OpenAI o1-preview",
+    "family": "OpenAI",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-o3",
+    "modelDisplayName": "OpenAI o3",
+    "family": "OpenAI",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-o3-mini",
+    "modelDisplayName": "OpenAI o3-mini",
+    "family": "OpenAI",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "openai-o4-mini",
+    "modelDisplayName": "OpenAI o4-mini",
+    "family": "OpenAI",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "phi-4",
+    "modelDisplayName": "Phi-4",
+    "family": "Phi",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "phi-4-mini-instruct",
+    "modelDisplayName": "Phi-4-mini-instruct",
+    "family": "Phi",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "phi-4-mini-reasoning",
+    "modelDisplayName": "Phi-4-mini-reasoning",
+    "family": "Phi",
+    "tier": "light",
+    "purposes": [
+      "reasoning"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "phi-4-multimodal-instruct",
+    "modelDisplayName": "Phi-4-multimodal-instruct",
+    "family": "Phi",
+    "tier": "balanced",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "phi-4-reasoning",
+    "modelDisplayName": "Phi-4-reasoning",
+    "family": "Phi",
+    "tier": "balanced",
+    "purposes": [
+      "reasoning"
+    ],
+    "providerSlug": "github-models",
+    "providerName": "GitHub Models",
+    "providerType": "third_party",
+    "providerWebsite": "https://github.com/marketplace/models",
+    "freeType": "ongoing_free",
+    "quotaNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) (docs)",
+    "rateLimitNote": "[Dependent on Copilot subscription tier (Free/Pro/Pro+/Business/Enterprise)](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://github.com/settings/tokens",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-sea-lion-v4-27b-it",
+    "modelDisplayName": "Gemma sea lion v4 27b it",
+    "family": null,
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-4-26b-a4b-it",
+    "modelDisplayName": "Gemma 4 26b a4b it",
+    "family": null,
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "granite-4.0-h-micro",
+    "modelDisplayName": "Granite 4.0 h micro",
+    "family": null,
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "kimi-k2.6",
+    "modelDisplayName": "Kimi k2.6",
+    "family": null,
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "kimi-k2.7-code",
+    "modelDisplayName": "Kimi k2.7 code",
+    "family": null,
+    "tier": "flagship",
+    "purposes": [
+      "coding"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-120b-a12b",
+    "modelDisplayName": "Nemotron 3 120b a12b",
+    "family": null,
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gpt-oss-120b",
+    "modelDisplayName": "Gpt oss 120b",
+    "family": null,
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gpt-oss-20b",
+    "modelDisplayName": "Gpt oss 20b",
+    "family": null,
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen3-30b-a3b-fp8",
+    "modelDisplayName": "Qwen3 30b a3b fp8",
+    "family": null,
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "glm-4.7-flash",
+    "modelDisplayName": "Glm 4.7 flash",
+    "family": null,
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "glm-5.2",
+    "modelDisplayName": "Glm 5.2",
+    "family": null,
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "deepseek-r1-distill-qwen-32b",
+    "modelDisplayName": "DeepSeek R1 Distill Qwen 32B",
+    "family": "DeepSeek",
+    "tier": "flagship",
+    "purposes": [
+      "reasoning"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-2b-instruct",
+    "modelDisplayName": "Gemma 2B Instruct",
+    "family": "Gemma",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-7b-instruct",
+    "modelDisplayName": "Gemma 7B Instruct",
+    "family": "Gemma",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-2-7b-chat",
+    "modelDisplayName": "Llama 2 7B Chat",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.1-8b-instruct",
+    "modelDisplayName": "Llama 3.1 8B Instruct",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.2-11b-vision-instruct",
+    "modelDisplayName": "Llama 3.2 11B Vision Instruct",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.2-1b-instruct",
+    "modelDisplayName": "Llama 3.2 1B Instruct",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.2-3b-instruct",
+    "modelDisplayName": "Llama 3.2 3B Instruct",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.3-70b-instruct",
+    "modelDisplayName": "Llama 3.3 70B Instruct",
+    "family": "Llama",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-4-scout-instruct",
+    "modelDisplayName": "Llama 4 Scout Instruct",
+    "family": "Llama",
+    "tier": "balanced",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-guard-3-8b",
+    "modelDisplayName": "Llama Guard 3 8B",
+    "family": "Llama",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "mistral-7b-instruct-v0.2",
+    "modelDisplayName": "Mistral 7B Instruct v0.2",
+    "family": "Mistral",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "mistral-small-3.1-24b-instruct",
+    "modelDisplayName": "Mistral Small 3.1 24B Instruct",
+    "family": "Mistral",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen-2.5-coder-32b-instruct",
+    "modelDisplayName": "Qwen 2.5 Coder 32B Instruct",
+    "family": "Qwen",
+    "tier": "balanced",
+    "purposes": [
+      "coding"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen-qwq-32b",
+    "modelDisplayName": "Qwen QwQ 32B",
+    "family": "Qwen",
+    "tier": "balanced",
+    "purposes": [
+      "reasoning"
+    ],
+    "providerSlug": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "providerType": "third_party",
+    "providerWebsite": "https://developers.cloudflare.com/workers-ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) (docs)",
+    "rateLimitNote": "[10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://dash.cloudflare.com",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "deepseek-v3-0324",
+    "modelDisplayName": "DeepSeek V3 0324",
+    "family": "DeepSeek",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "hyperbolic",
+    "providerName": "Hyperbolic",
+    "providerType": "third_party",
+    "providerWebsite": "https://hyperbolic.ai",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://app.hyperbolic.ai/",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.3-70b-instruct",
+    "modelDisplayName": "Llama 3.3 70B Instruct",
+    "family": "Llama",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "hyperbolic",
+    "providerName": "Hyperbolic",
+    "providerType": "third_party",
+    "providerWebsite": "https://hyperbolic.ai",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://app.hyperbolic.ai/",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "deepseek-r1-0528",
+    "modelDisplayName": "Deepseek R1 0528",
+    "family": "deepseek",
+    "tier": "flagship",
+    "purposes": [
+      "reasoning"
+    ],
+    "providerSlug": "hyperbolic",
+    "providerName": "Hyperbolic",
+    "providerType": "third_party",
+    "providerWebsite": "https://hyperbolic.ai",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://app.hyperbolic.ai/",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen3-coder-480b-a35b-instruct",
+    "modelDisplayName": "Qwen3 Coder 480B A35b Instruct",
+    "family": "qwen",
+    "tier": "flagship",
+    "purposes": [
+      "coding"
+    ],
+    "providerSlug": "hyperbolic",
+    "providerName": "Hyperbolic",
+    "providerType": "third_party",
+    "providerWebsite": "https://hyperbolic.ai",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://app.hyperbolic.ai/",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "deepseek-v3.1",
+    "modelDisplayName": "deepseek-v3.1",
+    "family": "deepseek",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "sambanova",
+    "providerName": "SambaNova Cloud",
+    "providerType": "third_party",
+    "providerWebsite": "https://sambanova.ai",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.sambanova.ai",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "deepseek-v3.2",
+    "modelDisplayName": "deepseek-v3.2",
+    "family": "deepseek",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "sambanova",
+    "providerName": "SambaNova Cloud",
+    "providerType": "third_party",
+    "providerWebsite": "https://sambanova.ai",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.sambanova.ai",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-4-31b-it",
+    "modelDisplayName": "gemma-4-31b-it",
+    "family": "gemma",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "sambanova",
+    "providerName": "SambaNova Cloud",
+    "providerType": "third_party",
+    "providerWebsite": "https://sambanova.ai",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.sambanova.ai",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gpt-oss-120b",
+    "modelDisplayName": "gpt-oss-120b",
+    "family": "gpt",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "sambanova",
+    "providerName": "SambaNova Cloud",
+    "providerType": "third_party",
+    "providerWebsite": "https://sambanova.ai",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.sambanova.ai",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "meta-llama-3.3-70b-instruct",
+    "modelDisplayName": "meta-llama-3.3-70b-instruct",
+    "family": "meta",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "sambanova",
+    "providerName": "SambaNova Cloud",
+    "providerType": "third_party",
+    "providerWebsite": "https://sambanova.ai",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.sambanova.ai",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "minimax-m2.7",
+    "modelDisplayName": "minimax-m2.7",
+    "family": "minimax",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "sambanova",
+    "providerName": "SambaNova Cloud",
+    "providerType": "third_party",
+    "providerWebsite": "https://sambanova.ai",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://cloud.sambanova.ai",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "bge-multilingual-gemma2",
+    "modelDisplayName": "BGE-Multilingual-Gemma2",
+    "family": "BGE",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-3-27b-instruct",
+    "modelDisplayName": "Gemma 3 27B Instruct",
+    "family": "Gemma",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "llama-3.3-70b-instruct",
+    "modelDisplayName": "Llama 3.3 70B Instruct",
+    "family": "Llama",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "pixtral-12b",
+    "modelDisplayName": "Pixtral 12B",
+    "family": "Pixtral",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "devstral-2-123b-instruct-2512",
+    "modelDisplayName": "devstral-2-123b-instruct-2512",
+    "family": "devstral",
+    "tier": "light",
+    "purposes": [
+      "coding"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-4-26b-a4b-it",
+    "modelDisplayName": "gemma-4-26b-a4b-it",
+    "family": "gemma",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "glm-5.2",
+    "modelDisplayName": "glm-5.2",
+    "family": "glm",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gpt-oss-120b",
+    "modelDisplayName": "gpt-oss-120b",
+    "family": "gpt",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "holo2-30b-a3b",
+    "modelDisplayName": "holo2-30b-a3b",
+    "family": "holo2",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "mistral-medium-3.5-128b",
+    "modelDisplayName": "mistral-medium-3.5-128b",
+    "family": "mistral",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "mistral-small-3.2-24b-instruct-2506",
+    "modelDisplayName": "mistral-small-3.2-24b-instruct-2506",
+    "family": "mistral",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen3-235b-a22b-instruct-2507",
+    "modelDisplayName": "qwen3-235b-a22b-instruct-2507",
+    "family": "qwen3",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen3-coder-30b-a3b-instruct",
+    "modelDisplayName": "qwen3-coder-30b-a3b-instruct",
+    "family": "qwen3",
+    "tier": "light",
+    "purposes": [
+      "coding"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen3.5-397b-a17b",
+    "modelDisplayName": "qwen3.5-397b-a17b",
+    "family": "qwen3.5",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "qwen3.6-35b-a3b",
+    "modelDisplayName": "qwen3.6-35b-a3b",
+    "family": "qwen3.6",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "voxtral-small-24b-2507",
+    "modelDisplayName": "voxtral-small-24b-2507",
+    "family": "voxtral",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "scaleway",
+    "providerName": "Scaleway Generative APIs",
+    "providerType": "third_party",
+    "providerWebsite": "https://www.scaleway.com",
+    "freeType": "trial",
+    "quotaNote": "Free tier (docs); see provider limits page",
+    "rateLimitNote": null,
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://console.scaleway.com/generative-api/models",
+    "sourceUrl": "https://github.com/cheahjs/free-llm-api-resources",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-ultra",
+    "modelDisplayName": "Nemotron 3 Ultra",
+    "family": "NVIDIA",
+    "tier": "flagship",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free variant: $0 prompt/completion via OpenRouter (live API); shared free-tier rate limits",
+    "rateLimitNote": "OpenRouter free models share account-level daily request limits (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://openrouter.ai/api/v1/models",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-nano-omni",
+    "modelDisplayName": "Nemotron 3 Nano Omni",
+    "family": "NVIDIA",
+    "tier": "light",
+    "purposes": [
+      "reasoning",
+      "vision"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free variant: $0 prompt/completion via OpenRouter (live API); shared free-tier rate limits",
+    "rateLimitNote": "OpenRouter free models share account-level daily request limits (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://openrouter.ai/api/v1/models",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-4-26b-a4b",
+    "modelDisplayName": "Gemma 4 26B A4B",
+    "family": "Google",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free variant: $0 prompt/completion via OpenRouter (live API); shared free-tier rate limits",
+    "rateLimitNote": "OpenRouter free models share account-level daily request limits (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://openrouter.ai/api/v1/models",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "gemma-4-31b",
+    "modelDisplayName": "Gemma 4 31B",
+    "family": "Google",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free variant: $0 prompt/completion via OpenRouter (live API); shared free-tier rate limits",
+    "rateLimitNote": "OpenRouter free models share account-level daily request limits (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://openrouter.ai/api/v1/models",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-3-super",
+    "modelDisplayName": "Nemotron 3 Super",
+    "family": "NVIDIA",
+    "tier": "balanced",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free variant: $0 prompt/completion via OpenRouter (live API); shared free-tier rate limits",
+    "rateLimitNote": "OpenRouter free models share account-level daily request limits (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://openrouter.ai/api/v1/models",
+    "modelTypes": [
+      "text-generation"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "free-models-router",
+    "modelDisplayName": "Free Models Router",
+    "family": "Free",
+    "tier": "balanced",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free variant: $0 prompt/completion via OpenRouter (live API); shared free-tier rate limits",
+    "rateLimitNote": "OpenRouter free models share account-level daily request limits (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://openrouter.ai/api/v1/models",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "nemotron-nano-12b-2-vl",
+    "modelDisplayName": "Nemotron Nano 12B 2 VL",
+    "family": "NVIDIA",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "openrouter",
+    "providerName": "OpenRouter",
+    "providerType": "third_party",
+    "providerWebsite": "https://openrouter.ai",
+    "freeType": "ongoing_free",
+    "quotaNote": "Free variant: $0 prompt/completion via OpenRouter (live API); shared free-tier rate limits",
+    "rateLimitNote": "OpenRouter free models share account-level daily request limits (docs)",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://openrouter.ai/settings/keys",
+    "sourceUrl": "https://openrouter.ai/api/v1/models",
+    "modelTypes": [
+      "multimodal"
+    ],
+    "lastDocCheckAt": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "modelSlug": "glm-4.7-flash",
+    "modelDisplayName": "GLM-4.7-Flash",
+    "family": "GLM",
+    "tier": "balanced",
+    "purposes": [
+      "general",
+      "coding",
+      "reasoning"
+    ],
+    "providerSlug": "zhipu-bigmodel",
+    "providerName": "Zhipu BigModel",
+    "providerType": "official",
+    "providerWebsite": "https://www.bigmodel.cn",
+    "freeType": "ongoing_free",
+    "quotaNote": "Official free model; usage is subject to platform rate limits",
+    "rateLimitNote": "Platform rate limits apply",
+    "requiresPhone": true,
+    "requiresCreditCard": false,
+    "applyUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys",
+    "sourceUrl": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.7-flash",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z",
+    "modelTypes": [
+      "text-generation"
+    ]
+  },
+  {
+    "modelSlug": "glm-4.6v-flash",
+    "modelDisplayName": "GLM-4.6V-Flash",
+    "family": "GLM",
+    "tier": "balanced",
+    "purposes": [
+      "general",
+      "vision",
+      "reasoning"
+    ],
+    "providerSlug": "zhipu-bigmodel",
+    "providerName": "Zhipu BigModel",
+    "providerType": "official",
+    "providerWebsite": "https://www.bigmodel.cn",
+    "freeType": "ongoing_free",
+    "quotaNote": "Official free multimodal model; usage is subject to platform rate limits",
+    "rateLimitNote": "Platform rate limits apply",
+    "requiresPhone": true,
+    "requiresCreditCard": false,
+    "applyUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys",
+    "sourceUrl": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.6v-flash",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z",
+    "modelTypes": [
+      "multimodal"
+    ]
+  },
+  {
+    "modelSlug": "glm-4.1v-thinking-flash",
+    "modelDisplayName": "GLM-4.1V-Thinking-Flash",
+    "family": "GLM",
+    "tier": "balanced",
+    "purposes": [
+      "vision",
+      "reasoning"
+    ],
+    "providerSlug": "zhipu-bigmodel",
+    "providerName": "Zhipu BigModel",
+    "providerType": "official",
+    "providerWebsite": "https://www.bigmodel.cn",
+    "freeType": "ongoing_free",
+    "quotaNote": "Official free vision reasoning model; usage is subject to platform rate limits",
+    "rateLimitNote": "Platform rate limits apply",
+    "requiresPhone": true,
+    "requiresCreditCard": false,
+    "applyUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys",
+    "sourceUrl": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.1v-thinking-flash",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z",
+    "modelTypes": [
+      "multimodal"
+    ]
+  },
+  {
+    "modelSlug": "glm-4-flash-250414",
+    "modelDisplayName": "GLM-4-Flash-250414",
+    "family": "GLM",
+    "tier": "light",
+    "purposes": [
+      "general"
+    ],
+    "providerSlug": "zhipu-bigmodel",
+    "providerName": "Zhipu BigModel",
+    "providerType": "official",
+    "providerWebsite": "https://www.bigmodel.cn",
+    "freeType": "ongoing_free",
+    "quotaNote": "Official free text model; usage is subject to platform rate limits",
+    "rateLimitNote": "Platform rate limits apply",
+    "requiresPhone": true,
+    "requiresCreditCard": false,
+    "applyUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys",
+    "sourceUrl": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4-flash-250414",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z",
+    "modelTypes": [
+      "text-generation"
+    ]
+  },
+  {
+    "modelSlug": "glm-4v-flash",
+    "modelDisplayName": "GLM-4V-Flash",
+    "family": "GLM",
+    "tier": "light",
+    "purposes": [
+      "vision"
+    ],
+    "providerSlug": "zhipu-bigmodel",
+    "providerName": "Zhipu BigModel",
+    "providerType": "official",
+    "providerWebsite": "https://www.bigmodel.cn",
+    "freeType": "ongoing_free",
+    "quotaNote": "Official free image-understanding model; usage is subject to platform rate limits",
+    "rateLimitNote": "Platform rate limits apply",
+    "requiresPhone": true,
+    "requiresCreditCard": false,
+    "applyUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys",
+    "sourceUrl": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4v-flash",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z",
+    "modelTypes": [
+      "multimodal"
+    ]
+  },
+  {
+    "modelSlug": "mimo-v2.5",
+    "modelDisplayName": "MiMo-V2.5",
+    "family": "MiMo",
+    "tier": "balanced",
+    "purposes": [
+      "general",
+      "vision",
+      "reasoning"
+    ],
+    "providerSlug": "xiaomi-mimo",
+    "providerName": "Xiaomi MiMo",
+    "providerType": "official",
+    "providerWebsite": "https://mimo.mi.com",
+    "freeType": "trial",
+    "quotaNote": "New-user bonus API credits; eligibility and amount vary by campaign; credits expire after 40 days",
+    "rateLimitNote": "Trial usage is limited by the available bonus-credit balance",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://platform.xiaomimimo.com/console/balance",
+    "sourceUrl": "https://mimo.mi.com/docs/en-US/quick-start/faq/promotions",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z",
+    "modelTypes": [
+      "multimodal"
+    ]
+  },
+  {
+    "modelSlug": "mimo-v2.5-pro",
+    "modelDisplayName": "MiMo-V2.5-Pro",
+    "family": "MiMo",
+    "tier": "flagship",
+    "purposes": [
+      "general",
+      "coding",
+      "reasoning"
+    ],
+    "providerSlug": "xiaomi-mimo",
+    "providerName": "Xiaomi MiMo",
+    "providerType": "official",
+    "providerWebsite": "https://mimo.mi.com",
+    "freeType": "trial",
+    "quotaNote": "New-user bonus API credits; eligibility and amount vary by campaign; credits expire after 40 days",
+    "rateLimitNote": "Trial usage is limited by the available bonus-credit balance",
+    "requiresPhone": false,
+    "requiresCreditCard": false,
+    "applyUrl": "https://platform.xiaomimimo.com/console/balance",
+    "sourceUrl": "https://mimo.mi.com/docs/en-US/quick-start/faq/promotions",
+    "lastDocCheckAt": "2026-07-22T00:00:00.000Z",
+    "modelTypes": [
+      "text-generation"
+    ]
+  }
+]
