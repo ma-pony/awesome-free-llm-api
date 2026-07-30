@@ -1,6 +1,6 @@
 # 免费 LLM API 清单
 
-> 一个可审阅、可追溯的免费与试用 LLM API 目录，覆盖文本、多模态、Embedding、语音、翻译、安全审核等类型。
+> 一个可审阅、可追溯的免费与试用 LLM API 目录，覆盖多模态、Embedding、语音、翻译、安全审核等类型，并收录适合 AI Agent 的免费网页搜索 API。
 
 [![FreeLLMAPI 目录](https://img.shields.io/badge/目录-freellmapi.io-5b4ce6)](https://freellmapi.io/zh)
 [![目录快照](https://img.shields.io/badge/目录-205%20条路由-111827)](https://freellmapi.io/zh)
@@ -21,6 +21,7 @@
 ## 入口
 
 - [浏览全部模型](https://freellmapi.io/zh)
+- [浏览免费搜索 API](https://freellmapi.io/zh/search-apis)
 - [按模型类型筛选](https://freellmapi.io/zh?modelType=text-generation)
 - [浏览服务商](https://freellmapi.io/zh/providers)
 - [English README](README.md)
@@ -29,6 +30,24 @@
 ## 参与贡献
 
 请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。新增条目需要提供第一方来源、免费额度语义、模型类型、配额说明和文档核验日期。
+
+## 免费搜索 API
+
+这里只收录“输入查询词、返回搜索结果”的 AI Agent 搜索 API，不包含网页爬取和正文抽取产品。可在[免费搜索 API 目录](https://freellmapi.io/zh/search-apis)中搜索和筛选。
+
+| 服务 | 方案 | 免费类型 | 官方额度说明 | 信用卡 | 链接 |
+| --- | --- | --- | --- | --- | --- |
+| [Tavily](https://www.tavily.com/) | Researcher | 长期免费 | 每月 1,000 credits；基础搜索 1 credit，高级搜索 2 credits | 不需要 | [获取 API](https://app.tavily.com/) · [官方资料](https://docs.tavily.com/documentation/api-credits) |
+| [Exa](https://exa.ai/) | Free | 长期免费 | 每月 $10 credits；Search 起价 $7/1,000 次 | 官方未说明 | [获取 API](https://dashboard.exa.ai/) · [官方资料](https://exa.ai/pricing?tab=api) |
+| [Exa](https://exa.ai/) | Sign-up credits | 一次性试用 | 注册赠送 $20 credits | 官方未说明 | [获取 API](https://dashboard.exa.ai/) · [官方资料](https://exa.ai/pricing?tab=api) |
+| [Brave Search](https://brave.com/search/api/) | Search | 长期免费 | 每月 $5 credits；Search 为 $5/1,000 次 | 需要 | [获取 API](https://api-dashboard.search.brave.com/) · [官方资料](https://brave.com/search/api/) |
+| [Linkup](https://www.linkup.so/) | Monthly free credits | 长期免费 | 每月余额补足至 $20；standard/fast searchResults 为 $0.005/次 | 官方未说明 | [获取 API](https://app.linkup.so/) · [官方资料](https://docs.linkup.so/pages/documentation/platform/pricing) |
+| [You.com](https://you.com/) | Free MCP profile | 长期免费 | 每日 100 次搜索；无需注册或 API Key | 不需要 | [获取 API](https://api.you.com/mcp?profile=free) · [官方资料](https://you.com/docs/welcome) |
+| [You.com](https://you.com/) | New-account credits | 一次性试用 | 新账户赠送 $100 credits；Web Search 为 $5/1,000 次 | 不需要 | [获取 API](https://you.com/platform) · [官方资料](https://you.com/docs/administration/billing) |
+| [SerpApi](https://serpapi.com/) | Free | 长期免费 | 每月 250 次；每小时 50 次 | 官方未说明 | [获取 API](https://serpapi.com/users/sign_up) · [官方资料](https://serpapi.com/pricing) |
+| [Serpstack](https://serpstack.com/) | Free | 长期免费 | 每月 100 次 Google 搜索 | 官方未说明 | [获取 API](https://serpstack.com/signup/free) · [官方资料](https://serpstack.com/pricing) |
+| [Serper](https://serper.dev/) | Free queries | 一次性试用 | 注册赠送 2,500 次查询 | 不需要 | [获取 API](https://serper.dev/) · [官方资料](https://serper.dev/) |
+| [SearchAPI.io](https://www.searchapi.io/) | Free requests | 一次性试用 | 注册赠送 100 次请求 | 不需要 | [获取 API](https://www.searchapi.io/) · [官方资料](https://www.searchapi.io/) |
 
 ## Catalog snapshot
 

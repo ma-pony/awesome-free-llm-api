@@ -1,6 +1,6 @@
 # Awesome Free LLM API
 
-> A maintained, source-linked directory of free and trial LLM APIs, multimodal models, embeddings, speech, translation, safety, and other inference endpoints.
+> A maintained, source-linked directory of free and trial LLM APIs—multimodal, embeddings, speech, translation, safety, and more—plus free web-search APIs for AI agents.
 
 [![FreeLLMAPI directory](https://img.shields.io/badge/directory-freellmapi.io-5b4ce6)](https://freellmapi.io/en)
 [![Catalog snapshot](https://img.shields.io/badge/catalog-205%20routes-111827)](https://freellmapi.io/en)
@@ -21,6 +21,7 @@ Quotas, regional availability, account requirements, and model availability chan
 ## Use the directory
 
 - [Browse all models](https://freellmapi.io/en)
+- [Browse free search APIs](https://freellmapi.io/en/search-apis)
 - [Filter by model type](https://freellmapi.io/en?modelType=text-generation)
 - [Browse providers](https://freellmapi.io/en/providers)
 - [Read the Chinese README](README.zh-CN.md)
@@ -29,6 +30,24 @@ Quotas, regional availability, account requirements, and model availability chan
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. A useful contribution includes a first-party source URL, the exact free-tier semantics, model type, quota details, and the date the documentation was checked.
+
+## Free search APIs
+
+These are query-to-search-results APIs for AI agents. Crawling and page-extraction products are outside this list. Browse and filter the live [Free Search API directory](https://freellmapi.io/en/search-apis).
+
+| Service | Offer | Free type | Documented quota | Credit card | Links |
+| --- | --- | --- | --- | --- | --- |
+| [Tavily](https://www.tavily.com/) | Researcher | Ongoing free tier | 1,000 credits/month; basic search uses 1 credit, advanced uses 2 | Not required | [Get access](https://app.tavily.com/) · [Official source](https://docs.tavily.com/documentation/api-credits) |
+| [Exa](https://exa.ai/) | Free | Ongoing free tier | $10 credits/month; Search starts at $7/1,000 requests | Not stated | [Get access](https://dashboard.exa.ai/) · [Official source](https://exa.ai/pricing?tab=api) |
+| [Exa](https://exa.ai/) | Sign-up credits | One-time trial | $20 credits on sign-up | Not stated | [Get access](https://dashboard.exa.ai/) · [Official source](https://exa.ai/pricing?tab=api) |
+| [Brave Search](https://brave.com/search/api/) | Search | Ongoing free tier | $5 credits/month; Search costs $5/1,000 requests | Required | [Get access](https://api-dashboard.search.brave.com/) · [Official source](https://brave.com/search/api/) |
+| [Linkup](https://www.linkup.so/) | Monthly free credits | Ongoing free tier | Balance tops back up to $20/month; standard/fast searchResults costs $0.005/call | Not stated | [Get access](https://app.linkup.so/) · [Official source](https://docs.linkup.so/pages/documentation/platform/pricing) |
+| [You.com](https://you.com/) | Free MCP profile | Ongoing free tier | 100 search queries/day; no sign-up or API key | Not required | [Get access](https://api.you.com/mcp?profile=free) · [Official source](https://you.com/docs/welcome) |
+| [You.com](https://you.com/) | New-account credits | One-time trial | $100 credits for new accounts; Web Search costs $5/1,000 calls | Not required | [Get access](https://you.com/platform) · [Official source](https://you.com/docs/administration/billing) |
+| [SerpApi](https://serpapi.com/) | Free | Ongoing free tier | 250 searches/month; 50 searches/hour | Not stated | [Get access](https://serpapi.com/users/sign_up) · [Official source](https://serpapi.com/pricing) |
+| [Serpstack](https://serpstack.com/) | Free | Ongoing free tier | 100 Google searches/month | Not stated | [Get access](https://serpstack.com/signup/free) · [Official source](https://serpstack.com/pricing) |
+| [Serper](https://serper.dev/) | Free queries | One-time trial | 2,500 queries on sign-up | Not required | [Get access](https://serper.dev/) · [Official source](https://serper.dev/) |
+| [SearchAPI.io](https://www.searchapi.io/) | Free requests | One-time trial | 100 requests on sign-up | Not required | [Get access](https://www.searchapi.io/) · [Official source](https://www.searchapi.io/) |
 
 ## Catalog snapshot
 
