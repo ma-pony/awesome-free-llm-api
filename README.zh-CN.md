@@ -3,7 +3,7 @@
 > 一个可审阅、可追溯的免费与试用 LLM API 目录，覆盖多模态、Embedding、语音、翻译、安全审核等类型，并收录适合 AI Agent 的免费网页搜索 API。
 
 [![FreeLLMAPI 目录](https://img.shields.io/badge/目录-freellmapi.io-5b4ce6)](https://freellmapi.io/zh)
-[![目录快照](https://img.shields.io/badge/目录-205%20条路由-111827)](https://freellmapi.io/zh)
+[![目录快照](https://img.shields.io/badge/目录-210%20条路由-111827)](https://freellmapi.io/zh)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22c55e)](LICENSE)
 
 [English](README.md) | **简体中文**
@@ -51,7 +51,7 @@
 
 ## Catalog snapshot
 
-This list mirrors the [FreeLLMAPI catalog](https://freellmapi.io/en) as of **2026-07-25**. It contains **205 provider routes**, **175 unique models**, and **18 providers**. Each record keeps its own model type, access link, quota note, and documentation source.
+This list mirrors the [FreeLLMAPI catalog](https://freellmapi.io/en) as of **2026-08-14**. It contains **210 provider routes**, **180 unique models**, and **18 providers**. Each record keeps its own model type, access link, quota note, and documentation source.
 
 ### Model types
 
@@ -59,13 +59,13 @@ This list mirrors the [FreeLLMAPI catalog](https://freellmapi.io/en) as of **202
 | --- | ---: |
 | Audio enhancement | 1 unique models |
 | Embeddings | 3 unique models |
-| Multimodal | 29 unique models |
+| Multimodal | 31 unique models |
 | Object detection | 3 unique models |
 | Reranking | 1 unique models |
 | Retrieval | 4 unique models |
 | Safety & moderation | 3 unique models |
 | Speech synthesis | 1 unique models |
-| Text generation | 131 unique models |
+| Text generation | 133 unique models |
 | Translation | 1 unique models |
 | Video generation | 3 unique models |
 | Video understanding | 6 unique models |
@@ -86,7 +86,7 @@ This list mirrors the [FreeLLMAPI catalog](https://freellmapi.io/en) as of **202
 | [Mistral La Plateforme](https://mistral.ai) | 3 | Multimodal, Text generation | [Browse models](https://freellmapi.io/en/providers/mistral-la-plateforme) |
 | [NVIDIA build.nvidia.com (NIM)](https://build.nvidia.com) | 30 | Audio enhancement, Embeddings, Multimodal, Object detection, Reranking, Retrieval, Safety & moderation, Speech synthesis, Text generation, Translation, Video generation, Video understanding | [Browse models](https://freellmapi.io/en/providers/nvidia) |
 | [OpenCode Zen](https://opencode.ai/docs/zen/) | 3 | Text generation | [Browse models](https://freellmapi.io/en/providers/opencode-zen) |
-| [OpenRouter](https://openrouter.ai) | 28 | Multimodal, Text generation | [Browse models](https://freellmapi.io/en/providers/openrouter) |
+| [OpenRouter](https://openrouter.ai) | 33 | Multimodal, Text generation | [Browse models](https://freellmapi.io/en/providers/openrouter) |
 | [SambaNova Cloud](https://sambanova.ai) | 8 | Multimodal, Text generation | [Browse models](https://freellmapi.io/en/providers/sambanova) |
 | [Scaleway Generative APIs](https://www.scaleway.com) | 16 | Multimodal, Text generation | [Browse models](https://freellmapi.io/en/providers/scaleway) |
 | [Together AI](https://www.together.ai) | 1 | Text generation | [Browse models](https://freellmapi.io/en/providers/together-ai) |
@@ -253,9 +253,13 @@ This list mirrors the [FreeLLMAPI catalog](https://freellmapi.io/en) as of **202
 | Hermes 3 Llama 3.1 405B | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
 | Hy3 | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
 | Laguna M.1 | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
+| Laguna S 2.1 | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | Free variant: $0 prompt/completion via OpenRouter; shared free-tier rate limits (checked 2026-08-14) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://openrouter.ai/poolside/laguna-s-2.1:free) |
 | Laguna Xs 2.1 | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
+| LFM2.5-2.6B | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | Free variant: $0 prompt/completion via OpenRouter; shared free-tier rate limits (checked 2026-08-14) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://openrouter.ai/liquid/lfm-2.5-2.6b:free) |
 | Llama 3.2 3B Instruct | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
 | Llama 3.3 70B Instruct | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
+| Lyria 3 Clip Preview | [OpenRouter](https://openrouter.ai) | Multimodal | Ongoing free tier | $0 prompt/completion via OpenRouter during preview (checked 2026-08-14) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://openrouter.ai/google/lyria-3-clip-preview) |
+| Lyria 3 Pro Preview | [OpenRouter](https://openrouter.ai) | Multimodal | Ongoing free tier | $0 prompt/completion via OpenRouter during preview (checked 2026-08-14) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://openrouter.ai/google/lyria-3-pro-preview) |
 | Nemotron 3 Nano 30B A3B | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
 | Nemotron 3 Nano Omni | [OpenRouter](https://openrouter.ai) | Multimodal | Ongoing free tier | Free variant: $0 prompt/completion via OpenRouter (live API); shared free-tier rate limits | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://openrouter.ai/api/v1/models) |
 | Nemotron 3 Nano Omni 30B A3B Reasoning | [OpenRouter](https://openrouter.ai) | Multimodal | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
@@ -264,6 +268,7 @@ This list mirrors the [FreeLLMAPI catalog](https://freellmapi.io/en) as of **202
 | Nemotron 3 Ultra | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | Free variant: $0 prompt/completion via OpenRouter (live API); shared free-tier rate limits | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://openrouter.ai/api/v1/models) |
 | Nemotron 3 Ultra 550B A55B | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
 | Nemotron 3.5 Content Safety | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
+| Nemotron 3.5 Lightning | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | Free variant: $0 prompt/completion via OpenRouter; shared free-tier rate limits (checked 2026-08-14) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://openrouter.ai/nvidia/nemotron-3.5-lightning:free) |
 | Nemotron Nano 12B 2 VL | [OpenRouter](https://openrouter.ai) | Multimodal | Ongoing free tier | Free variant: $0 prompt/completion via OpenRouter (live API); shared free-tier rate limits | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://openrouter.ai/api/v1/models) |
 | Nemotron Nano 12B v2 VL | [OpenRouter](https://openrouter.ai) | Multimodal | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
 | Nemotron Nano 9B v2 | [OpenRouter](https://openrouter.ai) | Text generation | Ongoing free tier | [20 requests/minute<br>50 requests/day<br>Up to 1000 requests/day with $10 lifetime topup](https://openrouter.ai/docs/api/reference/limits) (docs) | [Get access](https://openrouter.ai/settings/keys) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
