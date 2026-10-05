@@ -102,6 +102,7 @@ This list mirrors the [FreeLLMAPI catalog](https://freellmapi.io/en) as of **202
 
 | Model | Provider | Model types | Free access | Quota / eligibility | Links |
 | --- | --- | --- | --- | --- | --- |
+| APIClaw gateway (Claude, GPT, Gemini, DeepSeek via one OpenAI-compatible key) | [APIClaw](https://apiclaw.biz) | Text generation | Trial / credits | 50 free requests on signup, no credit card; paid flat-rate plans from $19/month (checked 2026-10) | [Get access](https://apiclaw.biz) · [Docs](https://apiclaw.biz/docs) |
 | gpt-oss-120b | [Cerebras](https://cerebras.ai) | Text generation | Ongoing free tier | 30 requests/minute; 60,000 tokens/minute; 900 requests/hour; 1,000,000 tokens/hour; 14,400 requests/day; 1,000,000 tokens/day (docs) | [Get access](https://cloud.cerebras.ai) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
 | Llama 3.1 8B | [Cerebras](https://cerebras.ai) | Text generation | Ongoing free tier | 30 requests/minute; 60,000 tokens/minute; 900 requests/hour; 1,000,000 tokens/hour; 14,400 requests/day; 1,000,000 tokens/day (docs) | [Get access](https://cloud.cerebras.ai) · [Docs](https://github.com/cheahjs/free-llm-api-resources) |
 | Qwen 3 32B | [Cerebras](https://cerebras.ai) | Text generation | Ongoing free tier | Free tier ~30 req/min, ~1M tokens/day (docs) | [Get access](https://cloud.cerebras.ai) · [Docs](https://inference-docs.cerebras.ai/support/pricing) |
